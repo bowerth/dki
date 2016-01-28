@@ -6,7 +6,7 @@ byline: Candidate for algorithm library language
 
 ## About
 
-R is "a free software environment for statistical computing and graphics".
+R is "a free software environment for statistical computing and graphics"
 
 - Wikipedia [EN](https://en.wikipedia.org/wiki/R_%28programming_language%29) [FR](https://fr.wikipedia.org/wiki/R_%28langage_de_programmation_et_environnement_statistique%29)
 - [Official manuals](https://cran.r-project.org/manuals.html) (Introduction to R, R Data Import/Export, R Installation and Administration, Writing R Extensions, R language definition, R Internals, The R Reference Index)
