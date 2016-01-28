@@ -1,5 +1,5 @@
 # A line starting with # serves as a comment.
-# _site/
+_site/
 .DS_Store
 /.rbenv-version
 /vendor/gems/
