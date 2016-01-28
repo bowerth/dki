@@ -63,4 +63,4 @@ About computations, there is between Scrapy / PostGIS and Django / Bokeh a bunch
 - [Scikit-learn](http://scikit-learn.org) is a Python library for machine learning:
 - [Statsmodels](http://statsmodels.sourceforge.net) is a Python library for statistics and econometrics (it integrates with Stata). Commercial support by [continuum.io](https://www.continuum.io)
 - [Pandas](http://pandas.pydata.org) is a Python library for data analysis and modelling, well suited for time series. Commercial support by [continuum.io](https://www.continuum.io)
-- 2
+
