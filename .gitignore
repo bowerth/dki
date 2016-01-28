@@ -1,0 +1,13 @@
+# A line starting with # serves as a comment.
+# _site/
+.DS_Store
+/.rbenv-version
+/vendor/gems/
+/bin/
+/.bundle/
+.sass-cache/
+_release
+_communication
+
+*.*~
+*.graphml

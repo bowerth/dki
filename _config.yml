@@ -1,0 +1,43 @@
+# For Atom Feed
+# domain: oecd-icio.cloudapp.net
+domain: dki.rdata.work
+author: Bo Werth
+email: bo.werth@gmail.com
+title: Smart Data
+
+# standard jekyll configuration
+
+permalink: /articles/:title
+
+# gems: [jekyll-font-awesome]
+
+highlighter: pygments
+exclude:
+  - bin
+  - config.rb
+  - Gemfile
+  - Gemfile.lock
+  - gems
+  - Procfile
+  - Rakefile
+  - README.md
+  - script
+  - vendor
+  - rmarkdown
+
+include:
+  - _stylesheets
+  - _javascript
+
+markdown: rdiscount
+
+sass:
+  sass_dir: assets/vendor/
+  style: :compressed
+
+# Custom site configuration
+lang: en
+
+# baseurl: /kit
+# baseurl: /icioapp2015
+baseurl: 

@@ -1,9 +1,67 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-</head>
-<body>
-<p>test</p>
-</body>
-</html>
+---
+layout: site
+body_class: home
+leadingpath: ./
+---
+
+<div id="service">
+  <div class="container">
+    <div class="row centered">
+
+      <!-- <img width="800" src="{{ '/assets/img/flow-data-analysis.svg' | prepend: site.baseurl }}"> -->
+
+      <div class="col-md-4">
+        <div class="center-align">
+          <!-- <i aria-hidden="true" class="fa fa-check-square"></i> -->
+          <!-- <h4>Correctness</h4> -->
+          <i aria-hidden="true" class="fa fa-users"></i>
+          <h4>User-Friendly</h4>
+        </div>
+	Good examples and documentation help increasing the adoption rates
+      </div>
+      <div class="col-md-4">
+        <div class="center-align">
+          <i aria-hidden="true" class="fa fa-code-fork"></i>
+          <h4>Flexible</h4>
+        </div>
+	Maintain flexibility through native language implementation
+      </div>
+      <div class="col-md-4">
+        <div class="center-align">
+	  <i aria-hidden="true" class="fa fa-retweet"></i>
+          <h4>Reproducible</h4>
+        </div>
+	Allowing others to understand data analysis by using common modules
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="container">
+  <div class="row centered">
+    <img width="800" src="{{ '/assets/img/flow-data-analysis.svg' | prepend: site.baseurl }}">
+  </div>
+</div>
+
+<div class="container mb">
+  <div class="row">
+    <div class="col-md-6">
+      <h3><a href="{{ site.baseurl }}/algorithm/">Algorithm Library</a></h3>
+      <ul>
+	<li>Concept design</li>
+	<li>Overview domain specific languages (DSL)</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h3><a href="{{ site.baseurl }}/visualisation/">Analytic Visualisation</a></h3>
+      <!-- <p>Scoping requirements in the area of analytical visualisations</p> -->
+      <!-- <p>Comparing existing approaches to alternative solutions</p> -->
+      <ul>
+	<li>Scoping requirements in the area of analytical visualisations</li>
+        <li>Comparing existing approaches to alternative solutions</li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
