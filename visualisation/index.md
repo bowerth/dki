@@ -1,7 +1,7 @@
 ---
 layout: curriculum
 title: Analytical Visualisation
-byline: Definition of analytical visualisation in OECD context
+byline: Definition of analytical visualisation in the Organisation's context
 ---
 
 ## Scoping
