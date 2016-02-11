@@ -137,6 +137,3 @@ DEPENDENCIES
   rack-contrib (~> 1.1.0)
   rake
   rdiscount
-
-BUNDLED WITH
-   1.11.2
