@@ -25,3 +25,19 @@ Develop routines in a language that can be called from statistical tools, avoidi
 - proposition to open the developed algorithm library to non-contributing users (covering aspects such as license, server, PAC, etc.)
 
 <!-- See also [Visualisation Framework]({{ site.url }}/visualisation/) -->
+
+## Guiding Principles
+
+### Mission
+
+Making the analysis more natural and convenient
+
+### Prime Directive
+
+Making the results more trustworthy
+
+## Implementation
+
+### Classes
+
+creating classes and methods responds to guiding principles: making the analysis more natural and convenient (the Mission) and making the results more trustworthy (the Prime Directive). The key challenge is dealing with complexity and growth: how to expand the computing capabilities in a way that is easy to use and leads to trustworthy software.
