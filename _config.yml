@@ -24,6 +24,8 @@ exclude:
   - script
   - vendor
   - rmarkdown
+  - _Rmarkdown
+  - Makefile
 
 include:
   - _stylesheets

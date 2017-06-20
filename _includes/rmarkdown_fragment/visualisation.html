@@ -1,0 +1,87 @@
+
+
+
+<div id="detailed-features-to-be-developed-in-oecdplot" class="section level2">
+<h2>Detailed Features to be developed in OECDplot</h2>
+<div id="create-a-legend-width-parameter-charte-graphique" class="section level3">
+<h3>Create a <code>legend width</code> parameter Charte Graphique</h3>
+<div id="description" class="section level4">
+<h4>Description</h4>
+<p>As you can see bellow the legend for all graphs in OECD publication must be of the size of the graph. Since there is not yet a parameter allowing to choose the width of the legend, you will need either to create this new parameter and intergrate it to ggplot2 or to find a reliable way for the legend to match the width of the graph.</p>
+<p><img src="figures/screenshot/legend-charte-graphique.png" /></p>
+</div>
+<div id="poc-using-r" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/ggplot-guides-example-1-1.svg" width="672" /></p>
+</div>
+</div>
+<div id="create-a-specific-look-for-the-line-symbol-in-legend" class="section level3">
+<h3>Create a specific look for the line symbol in legend</h3>
+<div id="description-1" class="section level4">
+<h4>Description</h4>
+<p>The legend symbol describing the mapping of color and linestyle must have a precise size. Rectangles must have a size of 4 x 2 mm and line must have an horizontal length of 9 mm. You must find a way to make the legend symbol for lines match those requirement with out breaking the display of rectangle element in the legend. The rectangle element is managed for now inside OECDplot. You can see an illustration of that just above.</p>
+</div>
+<div id="poc-using-r-1" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/guide-key-example-1.svg" width="672" /></p>
+</div>
+</div>
+<div id="display-a-y-axis-title-at-a-correct-position" class="section level3">
+<h3>Display a Y axis title at a correct position</h3>
+<div id="description-2" class="section level4">
+<h4>Description</h4>
+<p>We want the axis title to be positioned were it is defined in the template but for now a bug identified by Hadley in ggplot2 prevent us from positioning the title on the right place. You will need either to fix this bug or to produce a way to position this title accordingly to the template.</p>
+</div>
+<div id="poc-using-r-2" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/axis-title-position-1.svg" width="672" /></p>
+</div>
+</div>
+<div id="adding-custom-pie-labels" class="section level3">
+<h3>Adding Custom pie labels</h3>
+<div id="description-3" class="section level4">
+<h4>Description</h4>
+<p>Like in the example bellow we want to add custom labels representing the percentage of the slice inside the slice with the right font family, size and color.</p>
+<p><img src="figures/screenshot/pie-chart-labels.gif" /></p>
+</div>
+<div id="poc-using-r-3" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/pie-label-1.svg" width="672" /></p>
+</div>
+</div>
+<div id="implementing-a-radar-plot" class="section level3">
+<h3>Implementing a radar Plot</h3>
+<div id="description-4" class="section level4">
+<h4>Description</h4>
+<p>We want to produce radar (spider) charts that respects the specification of the Charte Graphique.</p>
+<p><img src="figures/screenshot/radar-chart.gif" /></p>
+</div>
+<div id="poc-using-r-4" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/radar-chart-1.svg" width="912" /></p>
+</div>
+</div>
+<div id="implementing-a-high-low-plot" class="section level3">
+<h3>Implementing a High Low Plot</h3>
+<div id="description-5" class="section level4">
+<h4>Description</h4>
+<p>We want to create a new plot type for the user that reproduce the High Low kind of graph that you see below. This graph is made to show 3 series 2 of them “surrounding” the other . The symbol used here are the same for all publication all that change is the color in use.</p>
+<p><img src="figures/screenshot/high-low-plot.gif" /></p>
+</div>
+<div id="poc-using-r-5" class="section level4">
+<h4>POC using R</h4>
+<p><img src="figures/visualisation/high-low-plot-1.svg" width="672" /></p>
+</div>
+</div>
+<div id="creation-of-a-second-y-axis-for-ggplot2" class="section level3">
+<h3>Creation of a second y axis for ggplot2</h3>
+<div id="description-6" class="section level4">
+<h4>Description</h4>
+<p>Users have requested the possibility to use a 2^nd Y axiswith a different scale from the first one.</p>
+</div>
+<div id="poc-using-r-6" class="section level4">
+<h4>POC using R</h4>
+<p><img src="http://rdata.work/cneo2016/articles/can_files/figure-html/ggplot-chart-1-1.svg" width="50%" /></p>
+</div>
+</div>
+</div>

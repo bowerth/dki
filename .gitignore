@@ -8,6 +8,11 @@
 .sass-cache/
 _release
 _communication
+_site/
+_Rmarkdown/
+jekyll-serve.sh
+lib/
+Makefile
 
 *.*~
 *.graphml
