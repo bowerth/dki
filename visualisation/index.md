@@ -4,8 +4,9 @@ title: Analytical Visualisation
 byline: Definition of analytical visualisation in the Organisation's context
 ---
 
+## OECDplot
 
-{% include rmarkdown_fragment/visualisation.html %}
+{% include rmarkdown_fragment/oecdplot.html %}
 
 
 ## Scoping
@@ -44,6 +45,10 @@ Areas where currently employed tools have shortcomings:
 - interactive/dynamic content for websites (HTML + JavaScript)
 
 <!-- See also [Algorithm Library]({{ site.url }}/algorithm) -->
+
+
+
+
 
 
 
